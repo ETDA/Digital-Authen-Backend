@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "d1f03663-fe32-4c5c-a667-26db8c8e0860",
+		"name": "qeueryProfile",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7897670"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44394/idp/v1/userInfo/yospakorn@etda.or.th",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjNGRjlCN0M5NkVDODlCMDU0Rjk5MTkxMkQwOTFFNzk5IiwidHlwIjoiSldUIn0.eyJuYmYiOjE2NTg4MDM2MDksImV4cCI6MTY1ODgwMzkwOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNjUiLCJhdWQiOiJEZW1vUnAiLCJpYXQiOjE2NTg4MDM2MDksImF0X2hhc2giOiJ0NlZ3eXlaSmdZdnRNbVVod3poQWZBIiwic19oYXNoIjoiekVTU3pzU0RMaDViZ28xS19tcW43QSIsInNpZCI6IjQ3ODRFQzEwRUVBMzk5N0JFMjUyMjk5QkM0OTEyNTE4Iiwic3ViIjoieW9zcGFrb3JuQGV0ZGEub3IudGgiLCJhdXRoX3RpbWUiOjE2NTg4MDM2MDksImlkcCI6ImxvY2FsIiwiYW1yIjpbInB3ZCJdfQ.Cz0yW9G2gq2PTK8IMQAJafxiSaVujzWSLoP7qJA7PGHKqCmNVvvUqu0CHkNvgNp1cEmAesNsy0jzvCP9EepfQJhIbino3pNQqJtez_7bwnSHwQOf6OFamD0CykMCmIjkdnaQ7xyDs5CnANJOYF45bsDRgXAuGiuaicaTCNUmrIzI6pDu8hMUo3h0jjAy7Cefw9jRqeAFBeVa8wTNHiNxbYzxmr3572tjEHg4udvl3pyPxHyCSrFNjliOX82kLovG7SgmXNZhpw2YC7n684RUmyEuIIZiMamo67I7gCxXjKxE9m18zZEc77Vdn1g19lBSPLh5tEk0Ff3mc9JjI734pg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44394/idp/v1/userInfo/yospakorn@etda.or.th",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44394",
+					"path": [
+						"idp",
+						"v1",
+						"userInfo",
+						"yospakorn@etda.or.th"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
